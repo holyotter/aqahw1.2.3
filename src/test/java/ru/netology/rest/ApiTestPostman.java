@@ -16,7 +16,7 @@ class ApiTestPostman {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("telephone"))
+                .body("data", equalTo("smartphone"))
         ;
     }
 }
